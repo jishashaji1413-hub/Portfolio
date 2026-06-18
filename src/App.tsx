@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
+
 function App() {
   return (
     <div className="bg-black min-h-screen">
@@ -15,6 +16,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      
 
     </div>
   );
