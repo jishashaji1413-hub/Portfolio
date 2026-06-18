@@ -1,12 +1,8 @@
 import { motion } from "framer-motion";
 
-
 function About() {
   return (
-    <section
-      id="about"
-      className="bg-black py-28 px-6"
-    >
+    <section id="about" className="bg-black py-28 px-6">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -46,27 +42,16 @@ function About() {
               "
             >
               <img
-  src="/profile.jpg"
-  alt="Jisha Shaji"
-  className="w-full h-full rounded-full object-cover"
-/>
+                src={import.meta.env.BASE_URL + "profile.jpg"}
+                alt="Jisha Shaji"
+                className="w-full h-full rounded-full object-cover"
+              />
             </div>
           </div>
 
           {/* Name & Title */}
           <div>
-            <h2
-              className="
-                text-5xl
-                font-bold
-                bg-gradient-to-r
-                from-cyan-400
-                via-purple-400
-                to-pink-500
-                bg-clip-text
-                text-transparent
-              "
-            >
+            <h2 className="text-5xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-500 bg-clip-text text-transparent">
               About Me
             </h2>
 
@@ -74,16 +59,13 @@ function About() {
               Jisha Shaji
             </h3>
 
-            <p className="text-gray-400 mt-1">
-              Frontend Developer
-            </p>
+            <p className="text-gray-400 mt-1">Frontend Developer</p>
           </div>
         </div>
 
         {/* About Text */}
         <p className="text-gray-300 text-lg leading-9">
-          I'm a passionate Frontend Developer focused on building
-          modern, responsive, and scalable web applications.
+          I'm a passionate Frontend Developer focused on building modern, responsive, and scalable web applications.
 
           I enjoy creating clean user experiences using
           <span className="text-cyan-400 font-semibold"> React</span>,
@@ -92,9 +74,7 @@ function About() {
           and
           <span className="text-green-400 font-semibold"> REST APIs</span>.
 
-          My goal is to transform complex business requirements
-          into intuitive digital experiences while maintaining
-          high performance, scalability, and clean code.
+          My goal is to transform complex business requirements into intuitive digital experiences while maintaining high performance, scalability, and clean code.
         </p>
 
         {/* Skills Tags */}
