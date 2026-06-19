@@ -7,17 +7,23 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "User Management System",
+    title: "Fixed Deposit (FD) Calculator",
     description:
-      "CRUD operations, Pagination, Search and API integration.",
+      "Developed a responsive fintech web application using React, TypeScript, and Vite to calculate FD maturity amount and interest earned based on deposit amount, tenure, interest rate, and compounding frequency. Implemented PDF report generation for investment summaries.",
   },
   {
     id:2,
     title:"Career Recommendation System",
     description:"A web-based Career Recommendation System that helps users discover a suitable career path using HTML, CSS, Javascript"
    },
-  {
+    {
     id: 3,
+    title: "User Management System",
+    description:
+      "CRUD operations, Pagination, Search and API integration.",
+  },
+  {
+    id: 4,
     title: "Online Store Management System",
     description:
       "Developed web based store management using Java and MYSQL",
